@@ -37,6 +37,7 @@ fun DonutChartScreen() {
         )
     )
 
+    // Create the donut chart
     DonutChart(
         modifier = Modifier
             .fillMaxWidth()

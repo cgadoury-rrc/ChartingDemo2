@@ -28,6 +28,7 @@ import com.cgadoury.chartingdemo2.screens.BarChartScreen
 import com.cgadoury.chartingdemo2.screens.DonutChartScreen
 import com.cgadoury.chartingdemo2.screens.LineChartScreen
 import com.cgadoury.chartingdemo2.screens.PieChartScreen
+import com.cgadoury.chartingdemo2.screens.RadarChartScreen
 import com.cgadoury.chartingdemo2.ui.theme.ChartingDemo2Theme
 
 class MainActivity : ComponentActivity() {
@@ -65,6 +66,9 @@ class MainActivity : ComponentActivity() {
                         }
                         composable(Destination.DonutChart.route) {
                             DonutChartScreen()
+                        }
+                        composable(Destination.RadarChart.route) {
+                            RadarChartScreen()
                         }
                     }
                 }
