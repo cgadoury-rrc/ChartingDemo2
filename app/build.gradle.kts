@@ -1,4 +1,4 @@
-val latest_version = "1.1.0"
+val latestVersion = "1.1.0"
 
 plugins {
     alias(libs.plugins.android.application)
@@ -62,6 +62,6 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     implementation("androidx.navigation:navigation-compose:2.7.2")
 
-    // Add dependency with latest version $latest_version
-    implementation("io.github.thechance101:chart:$latest_version")
+    // Add dependency with latest version $latestVersion
+    implementation("io.github.thechance101:chart:$latestVersion")
 }

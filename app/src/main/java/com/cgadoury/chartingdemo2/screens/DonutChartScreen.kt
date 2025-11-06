@@ -49,6 +49,8 @@ fun DonutChartScreen() {
             .fillMaxWidth()
             .height(400.dp)
             .absoluteOffset(x=0.dp, y=250.dp),
+
+        // Donut chart uses the names argument pieChartData
         pieChartData = testPieChartData,
         centerTitle = "Stats",
         centerTitleStyle = TextStyle(color = Color(0xFF071952)),

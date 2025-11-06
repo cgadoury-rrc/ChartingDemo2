@@ -20,6 +20,20 @@ import com.cgadoury.chartingdemo2.screens.PieChartScreen
 import com.cgadoury.chartingdemo2.screens.RadarChartScreen
 import com.cgadoury.chartingdemo2.ui.theme.ChartingDemo2Theme
 
+/**
+ * Purpose - Charting Demo 2 - demonstrating the AAY charting library
+ * AAY chart is a Kotlin multi-platform library containing 5 different chart composable's including:
+ * - Bar Chart
+ * - Donut Chart (Almost a variation of Pie Chart)
+ * - Line Chart
+ * - Pie Chart
+ * - Radar Chart
+ * Supported platforms are Desktop, Android, IOS, and Web
+ * @version 1.1.0
+ * @dependencies implementation("io.github.thechance101:chart:$latestVersion")
+ * @author Colton Gadoury
+ * @see "https://github.com/TheChance101/AAY-chart"
+ */
 class MainActivity : ComponentActivity() {
     @OptIn(ExperimentalMaterial3Api::class)
     override fun onCreate(savedInstanceState: Bundle?) {
