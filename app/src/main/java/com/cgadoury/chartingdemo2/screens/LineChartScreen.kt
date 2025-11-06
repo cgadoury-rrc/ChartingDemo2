@@ -18,9 +18,14 @@ import com.aay.compose.lineChart.LineChart
 import com.aay.compose.lineChart.model.LineParameters
 import com.aay.compose.lineChart.model.LineType
 
+/**
+ * Purpose - Line Chart Screen - display a line chart with test data
+ * @throws N/A
+ * @constructor Emits a new LineChartScreen
+ * @return Unit
+ */
 @Composable
 fun LineChartScreen(){
-
     // Line chart data
     val testLineParameters: List<LineParameters> = listOf(
 

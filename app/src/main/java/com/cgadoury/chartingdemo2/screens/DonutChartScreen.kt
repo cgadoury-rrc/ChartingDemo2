@@ -11,6 +11,12 @@ import androidx.compose.ui.unit.dp
 import com.aay.compose.donutChart.DonutChart
 import com.aay.compose.donutChart.model.PieChartData
 
+/**
+ * Purpose - Donut Chart Screen - display a donut chart with test data * @throws N/A
+ * @throws N/A
+ * @constructor Emits a new DonutChartScreen
+ * @return Unit
+ */
 @Composable
 fun DonutChartScreen() {
     // Donut chart uses pie chart data!

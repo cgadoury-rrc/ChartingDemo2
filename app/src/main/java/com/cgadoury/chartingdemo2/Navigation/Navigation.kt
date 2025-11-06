@@ -14,6 +14,13 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.cgadoury.chartingdemo2.destinations.Destination
 
+/**
+ * Purpose - Navigation - handles the navigation for the app
+ * @param navController: NavController - nav controller for the composable
+ * @throws N/A
+ * @constructor Emits the navigation bar
+ * @return Unit
+ */
 @Composable
 fun Navigation(navController: NavController) {
     Column(

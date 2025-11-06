@@ -11,6 +11,12 @@ import androidx.compose.ui.unit.dp
 import com.aay.compose.donutChart.PieChart
 import com.aay.compose.donutChart.model.PieChartData
 
+/**
+ * Purpose - Pie Chart Screen - display a pie chart with test data
+ * @throws N/A
+ * @constructor Emits a new PieChartScreen
+ * @return Unit
+ */
 @Composable
 fun PieChartScreen() {
 

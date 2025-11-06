@@ -18,6 +18,12 @@ import com.aay.compose.radarChart.model.NetLinesStyle
 import com.aay.compose.radarChart.model.Polygon
 import com.aay.compose.radarChart.model.PolygonStyle
 
+/**
+ * Purpose - Radar Chart Screen - display a radar chart with test data
+ * @throws N/A
+ * @constructor Emits a new SearchScreen
+ * @return Unit
+ */
 @Composable
 fun RadarChartScreen() {
     val radarLabels = listOf(
